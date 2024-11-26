@@ -1,0 +1,571 @@
+html, body {
+    overflow-x: hidden;
+}
+
+.body { background-color: black;
+}
+.navbar-expand-lg {
+    position: fixed;
+    top: 5%;
+    left: 30%; 
+    width: 38%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    z-index: 999; /* Ensure it's always on top */
+    border-radius: 30px;
+  }
+  
+  .container {
+    color: black; /* Set text color to black */
+  }
+
+  .nav-item { text-align: center;
+    padding-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar-toggler {
+    position: absolute;
+   right: 5%; /* Adjust the left position as needed */
+    top: 10px; /* Adjust the top position as needed */
+    background-color: gray; /* Set the background color to gray */
+    border-radius: 2px;
+    height: 35px;
+    width:35px;
+
+  }
+  
+  section {
+    background: linear-gradient(to left, rgb(7, 7, 7), transparent 150%, rgba(86, 86, 86, 0.5));
+    position: relative;
+}
+
+
+
+.content {
+    color: white; /* Texte blanc sur le fond noir */
+    text-align: center; /* Centrer le texte */
+   margin-top: -20%;
+   margin-left: -10%;
+}
+
+.img-fluid {  max-width: 100%;
+    height: auto;
+  
+}
+
+/* Styles généraux */
+.py-5 {
+    padding: 5rem 0;
+  }
+  
+  /* Styles spécifiques à la section */
+  #a-propos {
+    background-color: #f0f0f0; /* Couleur de fond de la section */
+  }
+  
+  .mb-3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .highlight {
+    color: #007bff; /* Couleur de surbrillance */
+  }
+  
+  .text-justify{
+    text-align: justify;
+    color: white;
+
+  }
+  
+  /* Styles pour les écrans plus petits */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+    .img-fluid {
+     max-width:100%;
+      height: auto;
+    }
+  }
+
+  
+/* Personnalisations éventuelles */
+
+#cv { margin-top: 0px;
+}
+
+.titre2 {
+    text-align: center; /* Centre le texte horizontalement */
+    display: flex; /* Transforme le conteneur en flex container */
+    justify-content: center; /* Centre les éléments à l'intérieur du conteneur */
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    color: white;
+  }
+  
+  .light, .bold {
+    margin: 0; /* Supprime les marges par défaut des titres */
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  /* Pour un meilleur rendu sur les petits écrans, vous pouvez ajouter : */
+  @media (max-width: 768px) {
+    .titre2 {
+      font-size: 2rem; /* Ajustez la taille de la police si nécessaire */
+    }
+  }
+  
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+.card-body {background-color: rgb(63, 63, 63);
+  width: 100%; 
+}
+
+.col-md-3 {margin: auto;
+  width: 600px;
+}
+
+.card-mb-3{ 
+    margin-left: 10px;
+ margin-right: 10px;
+
+}
+.card-text1 { color: rgb(95, 184, 5);
+    font-size: 70%;
+}
+h3 { color: white;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .nav-pills {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 15px;
+    list-style: none;
+  }
+  
+  .nav-link1 {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+  .nav-link1:hover,
+  .nav-link1:focus {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .nav-link1.active {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  /* Pour les écrans plus petits */
+  @media (max-width: 768px) {
+    .nav-pills {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-link1 {
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+
+  
+  .card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+  .card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card-title { color: white;
+}
+
+  .titre4 {display: flex;
+    display:inline-flex;
+    gap: 10px;
+    margin-left: 60px ;
+   margin-top: -40px;
+   margin-bottom: 50px;
+   color: rgb(255, 255, 255);
+   text-align: center;
+
+  }
+  .testimonials {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.testimonial {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:  rgb(63,63,63);
+    text-align: center;
+  }
+  
+  .green1a {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .green1 {
+    color: rgb(95, 184, 5);
+    font-style: italic;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+    .col-md-3 {
+      width: 100%;
+    }
+    .testimonial {
+      margin: 10px auto;
+    }
+  }
+
+  .testimonial {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(63,63,63);
+    text-align: center;
+  }
+  
+  .green1a {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .green3 {
+    color: rgb(95, 184, 5);
+    font-style: italic;
+  }
+
+.temoignage { color: white;
+}
+
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+    .col-md-3 {
+      width: 100%;
+    }
+    .testimonial {
+      margin: 10px auto;
+    }
+  }
+
+
+  .titre5 { display: flex;
+    display:inline-flex;
+    gap: 10px;
+    margin: right -60px;
+   margin-top: -40px;
+   text-align: center;
+  }
+  .light {font-weight: 200;
+    margin-left: 10px;
+  }
+  .bold{font-weight: bold;
+    margin-right: -50px;
+  }
+  
+  .services {
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+  }
+  
+  .service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background-color: rgb(63,63,63);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .service-card i {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .service-card h5  {font-weight:lighter;
+    color: #4CAF50;
+    
+  }
+  .service-card p  {font-weight: 300;
+    margin-top: 15px;
+    color: white;
+  }
+
+  .blog {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .titre6 {display: flex;
+    display:inline-flex;
+    gap: 10px;
+    margin: right -60px;
+   margin-top: -40px;
+   text-align: center;
+   color: white;
+  }
+  
+  .blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .blog-post {
+    background-color:rgb(63,63,63);
+    color: #fff;
+    font-weight: 100;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 300px;
+    text-align:left;
+  }
+  
+  .blog-post-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .blog-post-image img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .post{color: #4CAF50;
+    font-weight: 500;
+  }
+
+  
+  .contact {
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+  }
+  
+  
+  
+  .contact-form, .contact-info {
+    width: 45%;
+    display:inline-block;
+    vertical-align:top;
+  margin-left: 2%;
+  
+  }
+  
+  .contact-form form {
+    text-align: left;
+  }
+  
+  .contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(255, 255, 255);
+  }
+  
+  .contact-form .text { height: 100px;
+  }
+  
+  .contact-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .contact-info { text-align: left;
+    color: white;
+  }
+  
+  .contact-form h5 { text-align: left;
+  }
+  
+  .inf { color: #4CAF50;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+  @media (max-width: 768px) {
+    .contact-info {
+      padding: 10px;
+    }
+    .contact-info li {
+      margin-bottom: 5px;
+    }
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(41, 40, 40);
+    color: #fff;
+  }
+  
+  .social-icons img{
+    margin-bottom: 10px;
+    width: 50px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  
+  .copyright p {
+    margin: 0;
+  }
+  
+  .footer{ color: #4CAF50;
+  }
+  
